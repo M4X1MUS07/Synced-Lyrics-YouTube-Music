@@ -145,7 +145,7 @@ onloadend: res => {
         } else if ('matcher.track.get' in macro_calls &&
                    macro_calls['matcher.track.get']['message']['body']) {
           const info = macro_calls['matcher.track.get']['message']['body']['track']
-
+          if (!info) return reject('Failed to get info')
           if (info.instrumental)
             return reject('Instrumental track.')
         }
