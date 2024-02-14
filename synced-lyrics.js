@@ -56,6 +56,7 @@ style.innerHTML = `
     border-radius: 15px;
     pointer-events: auto;
     backdrop-filter: blur(100%);
+    overflow-x: hidden;
 }
   .lyrics-container::-webkit-scrollbar {
     display: none;
