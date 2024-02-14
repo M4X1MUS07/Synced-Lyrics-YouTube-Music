@@ -16,6 +16,14 @@ Double clicking the panel will make the panel full screen.
 
 If lyrics is not available for a song, the icon will be greyed out and you can't open the panel.
 
+## Preview
+
+### Small Lyrics Panel
+![Small Lyrics Panel](assets/lyrics-panel-small.png)
+
+### Fullscreen Lyrics Panel
+![Fullscreen Lyrics Panel](assets/lyrics-panel-fullscreen.png)
+
 ## Future changes
 
 - Fullscreen button to make the lyrics panel fullscreen instead of double clicking
